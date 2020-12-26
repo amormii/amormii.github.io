@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Секрети Анатолії</title>
 </head>
 <body>
@@ -50,55 +51,88 @@
     </header>
 
     <main>
-      <div class="col-4">
-        <img src="img/tour.svg" alt = "Секрети Анатолії">
-        <div class="dates">
-          <h3><img src="img/calendar.svg" alt = "calendar">
-            Дати тура (7 днів/ 8 ночей):</h3>
-          <p><a href="#">26.09.20</a></p>
-          <p><a href="#">05.10.20</a></p>
-          <p><a href="#">14.10.20</a></p>
-          <p><a href="#">16.11.20</a></p>
-          <p><a href="#">26.10.20</a></p>
-          <p><a href="#">04.11.20</a></p>
+      <div class="col-8">
+        <div class="col-4">
+          <img src="img/tour.svg" alt = "Секрети Анатолії">
         </div>
+        <div class="col-4">
+          <div class="dates">
+            <div class="dates-header">
+              <img src="img/calendar.svg" alt = "calendar">
+              <h3>Дати тура (7 днів/ 8 ночей):</h3>
+            </div>
+            <div class="row">
+              <p><a href="#">26.09.20</a></p>
+              <p><a href="#">05.10.20</a></p>
+              <p><a href="#">14.10.20</a></p>
+            </div>
+
+              <div class="row">
+                <p><a href="#">16.11.20</a></p>
+                <p><a href="#">26.10.20</a></p>
+                <p><a href="#">04.11.20</a></p>
+            </div>
+          </div>
           <div class="route">
-          <h3><img src="img/geo.svg" alt = "geo">Маршрут:</h3>
-          <p>Стамбул - Памуккале - Анталія - Троя - Ефес - Кушадаси</p>
+            <div class="route-header">
+              <img src="img/geo.svg" alt = "geo">
+            </div>
+              <div class="route-info">
+                <h3>Маршрут:</h3>
+                <p>Стамбул - Памуккале - Анталія - Троя - Ефес - Кушадаси</p>
+            </div>
         </div>
         <div class="submission">
-          <form action="#">
-            <button>ЗАМОВИТИ</button>
-          </form>
-          <form action="#">
-            <button>ПРОГРАМА ТУРУ</button>
-          </form>
+            <form action="#">
+              <button>ЗАМОВИТИ</button>
+            </form>
+            <form action="#">
+              <button>ПРОГРАМА ТУРУ</button>
+            </form>
+        </div>
         </div>
       </div>
 
       <section class = "screen-1">
-        <h1>1 день</h1>
-        <h2>Стамбул</h2>
+        <div class="day1">
+          <div class="headers">
+            <p class="days-number">1 день</p>
+            <h2>Стамбул</h2>
+          </div>
+
         <div class = "col-4">
+          <div class="paragraph">
           <p>Приліт у Стамбул. Трансфер з аеропорта в готель, розміщення. Вільний
             час, знайомство та зустріч з гідом.
             Вечеря (за доп. плату)</p>
           <img src="img/стамбул1.svg" alt="Собор Святої Софії">
         </div>
-        <h1>2 день</h1>
-        <h2>Стамбул</h2>
+        </div>
+        </div>
+        <div class="day2">
+          <div class="headers">
+            <p class="days-number">2 день</p>
+            <h2>Стамбул</h2>
+        </div>
+
         <div class="col-4">
-          <p>Вранці виїзд з готелю.
-            Екскурсія по Стамбулу, з відвідуванням Блакитної Мечеті, площі
-            Іподрому. Залежно від робочих днів музеїв - відвідування Палацу Топкапи
-            або Собору Святої Софії.
-            (Бажаючі за додаткову плату можуть здійснити прогулянку на яхті по
-            Босфору).</p>
-          <h3>Блакитна мечеть</h3>
-          <p>Це найбільший шедевр не тільки ісламської і світової архітектури.
-            Мечеть розташовується в історичному центрі міста на березі
-            Мармурового моря. Блакитна мечеть - один із символів Стамбула.</p>
+          <div class="paragraph">
+            <div class="text">
+            <p>Вранці виїзд з готелю.
+              Екскурсія по Стамбулу, з відвідуванням Блакитної Мечеті, площі
+              Іподрому. Залежно від робочих днів музеїв - відвідування Палацу Топкапи
+              або Собору Святої Софії.
+              (Бажаючі за додаткову плату можуть здійснити прогулянку на яхті по
+              Босфору).</p>
+              <h3> Блакитна мечеть</h3>
+            <p>Це найбільший шедевр не тільки ісламської і світової архітектури.
+              Мечеть розташовується в історичному центрі міста на березі
+              Мармурового моря. Блакитна мечеть - один із символів Стамбула.</p>
+          </div>
+
           <img src="img/стамбул2.svg" alt="Палац Топкапи">
+        </div>
+        </div>
         </div>
       </section>
       <section class="screen-2">
@@ -118,8 +152,8 @@
           <h3>Показати ще <img src="img/arrow.svg" alt = "arrow"></h3>
         </div>
         <div class="sidebar-col-2">
-          <h2>Чарівна Каппадокія</h2>
           <img src="img/кападокія.svg" alt="Чарівна Каппадокія">
+          <h2>Чарівна Каппадокія</h2>
           <p>Туреччина - «Ворота Європи
             та Азії», країна, яка з'єднує Схід і
             Захід, сучасність і минуле. Це
@@ -133,17 +167,21 @@
     </main>
 
     <footer>
-      <p>Маєш питання?
-      Зателефонуй!
-        <a href = "tel:+3808888888">+380 (88) 888-88-88</a></p>
+      <div class="contact-info">
+        <p>Маєш питання?</p>
+      <p>Зателефонуй!</p>
+        <p><a href = "tel:+3808888888">+380 (88) 888-88-88</a></p>
+      </div>
       <div class="logos">
       <a href="https://telegram.org/" target="_blank"><img src="img/telegram.svg" alt = "telegram"></a>
       <a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" alt = "instagram"></a>
       <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" alt="facebook"></a>
       </div>
-      <p>Чекаємо на вас у нашому місті
-        Робочі  пн - пт: 10:00 - 18:00
-        години  сб - нд: 10:00 - 16:00 </p>
+      <div class="work-hours">
+        <p>Чекаємо на вас у нашому місті</p>
+        <p>Робочі  пн - пт: 10:00 - 18:00</p>
+        <p>години  сб - нд: 10:00 - 16:00 </p>
+      </div>
     </footer>
   </div>
 </body>

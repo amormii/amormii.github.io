@@ -1,0 +1,31 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-5 {
+  width: 62.5%;
+}
+
+.sidebar-col-2{
+  width: 25%;
+}
+
+
+.col-8 .col-4 {
+  width: 45%;
+}
+
+.col-8{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

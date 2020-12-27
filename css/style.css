@@ -1,0 +1,199 @@
+header {
+  width: 100%;
+  height: auto;
+  background-color: #1EB1FC;
+  border-radius: 0 0 10px 10px;
+}
+
+ul.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.menu > li:hover .ddmenu{
+  display: block;
+}
+
+.menu >li .logo {
+  width: 70px;
+}
+
+.ddmenu{
+  display: none;
+  background-color: #0094FF;
+  position: absolute;
+  width: 50%;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+select {
+  color: white;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #0094FF;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  color: white;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  padding: 5px 2px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.dates a{
+  text-decoration: none;
+  color: white;
+}
+
+.row p{
+  padding: 15px 50px;
+  margin: 10px;
+}
+
+nav {
+  text-decoration: none;
+}
+
+.screen-1 img {
+  justify-content: flex-end;
+}
+
+.headers{
+  display: flex;
+}
+
+.screen-2{
+  display: flex;
+}
+
+.days-number{
+  padding: 5px 10px;
+  background-color: #4BC1FD;
+  border-radius: 0 10px 10px 0;
+  color: white;
+}
+
+.paragraph {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.paragraph img{
+  width: 50%;
+}
+
+.paragraph p{
+  padding: 10px 0;
+}
+
+.dates p{
+  background: #4BC1FD;
+  border-radius: 10px;
+}
+
+.sidebar-col-2 {
+  background-color: #4BC1FD;
+  color:white;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+button {
+  background-color: #FFE600;
+  color:#000000;
+  border-radius: 50px;
+  border: none;
+}
+
+.text {
+  width: 45%;
+}
+
+.screen-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col-5 p{
+  padding: 10px 0;
+}
+
+footer {
+  width: 100%;
+  background-color: #4BC1FD;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+footer p{
+  color: white;
+}
+
+.contact-info a{
+  text-decoration: none;
+  color: white;
+}
+
+.contact-info {
+  margin: auto 0;
+  width: 25%;
+}
+
+.work-hours{
+  width: 40%;
+  margin: auto 0;
+  text-align: right;
+}
+
+.logos{
+  width: 50%;
+  margin: auto 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5px 0;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.sidebar-col-2 img {
+  width: 100%
+}
+
+.sidebar-col-2 button {
+  align-self: center;
+}
+#main-picture {
+  width: 100%;
+}
+
+button {
+  padding: 20px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+}

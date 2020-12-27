@@ -1,14 +1,14 @@
-header {
+.menu {
   width: 100%;
-  height: auto;
   background-color: #1EB1FC;
   border-radius: 0 0 10px 10px;
-}
-
-ul.menu{
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
+  align-items: center;
+}
+
+.menu li {
+  padding: 0 5px;
 }
 
 .menu > li:hover .ddmenu{
@@ -23,9 +23,28 @@ ul.menu{
   display: none;
   background-color: #0094FF;
   position: absolute;
-  width: 50%;
-  border-radius: 5px;
-  margin-left: 5px;
+  width: auto;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.ddmenu button {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.ddmenu h3 {
+  font-weight: normal;
+}
+
+.ddmenu p {
+  font-size: 20px;
+}
+
+.ddmenu img {
+  margin-top: 5px;
 }
 
 select {
@@ -46,7 +65,7 @@ header ul {
   padding: 5px 2px;
 }
 
-header a {
+.menu a {
   text-decoration: none;
   color: white;
 }
@@ -55,6 +74,7 @@ body {
   font-family: Ubuntu, sans-serif;
   font-style: normal;
   font-weight: normal;
+  font-size: 18px;
 }
 
 .dates a{
@@ -67,16 +87,12 @@ body {
   margin: 10px;
 }
 
-nav {
-  text-decoration: none;
-}
-
-.screen-1 img {
-  justify-content: flex-end;
-}
-
 .headers{
   display: flex;
+}
+
+.headers h2 {
+  margin-left: 5px;
 }
 
 .screen-2{
@@ -86,6 +102,8 @@ nav {
 .days-number{
   padding: 5px 10px;
   background-color: #4BC1FD;
+  width:8%;
+  text-align: center;
   border-radius: 0 10px 10px 0;
   color: white;
 }
@@ -109,6 +127,7 @@ nav {
 }
 
 .sidebar-col-2 {
+  margin-top: 10px;
   background-color: #4BC1FD;
   color:white;
   border-radius: 10px;
@@ -129,6 +148,7 @@ button {
 
 .screen-2 {
   display: flex;
+  margin-top: 10px;
   justify-content: space-between;
 }
 
@@ -156,7 +176,7 @@ footer p{
 
 .contact-info {
   margin: auto 0;
-  width: 25%;
+  width: 40%;
 }
 
 .work-hours{
@@ -167,10 +187,10 @@ footer p{
 
 .logos{
   width: 50%;
-  margin: auto 20%;
+  margin: auto 10%;
   display: flex;
   justify-content: space-between;
-  padding: 2.5px 0;
+  padding: 3px 0;
 }
 
 .row{
@@ -184,16 +204,70 @@ footer p{
 }
 
 .sidebar-col-2 button {
-  align-self: center;
+  display: block;
+  position: relative;
+  margin: 5px auto;
 }
+
+.sidebar-col-2 h2 {
+  text-align: center;
+  font-weight: normal;
+}
+
+.sidebar-col-2 p {
+  text-align: center;
+}
+
 #main-picture {
+  margin-top: 5px;
   width: 100%;
 }
 
 button {
   padding: 20px;
-  font-weight: bold;
   align-items: center;
   text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.order-button {
+  margin-top: 10px;
+  width: 55%;
+}
+
+.program-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+}
+
+.dates-header{
+  display: flex;
+  margin-top: 10px;
+}
+
+.dates-header img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.route-header {
+  display: flex;
+}
+
+.route-header img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.route-info {
+  margin-left: 40px;
+}
+
+hr {
+  height: 3px;
+  width: 50%;
   margin-bottom: 10px;
 }

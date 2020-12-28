@@ -3,12 +3,18 @@
   background-color: #1EB1FC;
   border-radius: 0 0 10px 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
-.menu li {
-  padding: 0 5px;
+.mmenu {
+  width: 100%;
+  background-color: #4BC1FD;
+  display: none;
+}
+
+.mmenu-btn {
+  margin-left: 10px;
 }
 
 .menu > li:hover .ddmenu{
@@ -27,6 +33,7 @@
   border-radius: 10px;
   margin-right: 5px;
 }
+
 
 .ddmenu button {
   display: block;
@@ -83,7 +90,7 @@ body {
 }
 
 .row p{
-  padding: 15px 50px;
+  padding: 2% 5%;
   margin: 10px;
 }
 
@@ -165,6 +172,10 @@ footer {
   border-radius: 10px 10px 0 0;
 }
 
+.mobile-footer {
+  display: none;
+}
+
 footer p{
   color: white;
 }
@@ -180,7 +191,7 @@ footer p{
 }
 
 .work-hours{
-  width: 40%;
+  width: 60%;
   margin: auto 0;
   text-align: right;
 }
@@ -195,7 +206,7 @@ footer p{
 
 .row{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
 
@@ -219,8 +230,8 @@ footer p{
 }
 
 #main-picture {
-  margin-top: 5px;
   width: 100%;
+  margin-top: 5px;
 }
 
 button {
@@ -232,7 +243,9 @@ button {
 }
 
 .order-button {
-  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 55%;
 }
 
@@ -271,3 +284,86 @@ hr {
   width: 50%;
   margin-bottom: 10px;
 }
+
+.text {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 14px;
+  }
+
+  .col-8 {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .mmenu {
+    display: flex;
+    width: 100%;
+  }
+
+  .mmenu .logo {
+    margin: 0 auto;
+    width: 50px;
+  }
+
+  .paragraph {
+    display: block;
+  }
+  .screen-2 {
+    display: block;
+  }
+  footer {
+    display: none;
+  }
+
+  .mobile-footer{
+    display: block;
+    width: 100%;
+    background-color: #4BC1FD;
+    color: white;
+  }
+
+  .mobile-footer a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .mobile-footer-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-logos{
+    display: flex;
+    margin: auto 5%;
+    justify-content: space-around;
+  }
+
+  .mobile-logos img {
+    width: 60%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .paragraph img {
+    width: 100%;
+  }
+  .col-8 .col-4{
+    width: 100%;
+  }
+  button {
+    font-size: 18px;
+    margin: 10px auto 0;
+  }
+}
+

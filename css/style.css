@@ -15,11 +15,6 @@
 
 .mmenu-btn {
   margin-left: 10px;
-  display: none;
-}
-
-.mmenu .logo {
-  display: none;
 }
 
 .menu > li:hover .ddmenu{
@@ -216,7 +211,7 @@ footer p{
 }
 
 .sidebar-col-2 img {
-  width: 100%
+  width: 100%;
 }
 
 .sidebar-col-2 button {
@@ -317,7 +312,7 @@ hr {
     width: 100%;
   }
 
-  .mmenu .logo {
+  .mobile-logo {
     margin: 0 auto;
     width: 50px;
   }
@@ -371,4 +366,3 @@ hr {
     margin: 10px auto 0;
   }
 }
-

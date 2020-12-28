@@ -15,6 +15,11 @@
 
 .mmenu-btn {
   margin-left: 10px;
+  display: none;
+}
+
+.mmenu .logo {
+  display: none;
 }
 
 .menu > li:hover .ddmenu{
